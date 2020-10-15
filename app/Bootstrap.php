@@ -5,7 +5,7 @@ class Bootstrap {
     private static $app;
     public function __construct() {
         if (version_compare(phpversion() , '7.0', '<')) {
-            die('<h1>No! :(</h1><p>为了兼容更好使用，必须在PHP7.0以上版本开发！</p>');
+            die('<h1>No! :(</h1><p>より使いやすい互換性を持つためには、PHP 7.0以上のバージョンで開発する必要があります！</p>');
         }
         define('APP_PATH', str_replace('\\', '/', realpath(dirname(__FILE__) . '/')) . "/");
         define('ROOT_PATH', str_replace('\\', '/', realpath(dirname(__FILE__, 2) . '/')) . "/");
