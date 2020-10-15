@@ -1,6 +1,6 @@
 {
     "name": "tokyo-lei/easyphp4",
-    "description": "EasyPHP Framework",
+    "description": "EasyPHP Framework for japan",
     "require": {
         "twig/twig": "3.0",
         "catfan/medoo": "^1.7",
