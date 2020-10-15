@@ -2,7 +2,7 @@
 
 use \NoahBuscher\Macaw\Macaw as Route;
 
-//后台地址-为了安全后期更改
+//バックグラウンドアドレス-セキュリティのために後期に変更
 $admin = 'admin';
 
 Route::get('/', 'app\home\controller\homeController@main');
