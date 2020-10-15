@@ -1,4 +1,4 @@
-# EasyPHP4
+# EasyPHP4 For Japanese
 
 
 <p align="center">
